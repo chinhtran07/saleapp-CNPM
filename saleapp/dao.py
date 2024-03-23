@@ -1,30 +1,43 @@
-import json
+from saleapp.models import Product, Category, User
+from saleapp import app, login
 
+
+@login.user_loader
+def load_user(user_id):
+    return User.query.get(user_id)
 
 def load_categories():
-    with open("data/categories.json", encoding="utf-8") as f:
-        return json.load(f)
+    cates = Category.query.all()
+    return cates
 
 
-def load_products(q, cate_id):
-    with open("data/products.json", encoding="utf-8") as f:
-        products = json.load(f)
+def count_products():
+    return Product.query.count()
+
+
+def load_products(q, cate_id, page=None):
+        query = Product.query
 
         if q:
-            products = [p for p in products if p['name'].find(q) >= 0]
+            query = query.filter(Product.name.contains(q))
 
         if cate_id:
-            products = [p for p in products if p['category_id'].__eq__(int(cate_id))]
+            query = query.filter(Product.category_id.__eq__(cate_id))
+        if page:
+            page_size = app.config["PAGE_SIZE"]
+            start = (int(page) - 1) * page_size
+            query = query.slice(start, start + page_size)
 
-        return products
+        return query.all()
 
 
 def get_product_by_id(product_id):
-    with open("data/products.json", encoding="utf-8") as f:
-        products = json.load(f)
-        return [p for p in products if p['id'].__eq__(int(product_id))]
+        product = Product.query.get(product_id)
+
+        return product
 
 
 
 if __name__ == "__main__":
-    print(load_categories())
+    with app.app_context():
+        print(load_categories())

@@ -1,60 +1,49 @@
 [{
   "id": 1,
-  "name": "Iphone 15",
-  "price": 2000000,
-  "image": "https://cdn.trangthienlong.com.vn/wp-content/uploads/2023/09/iphone-15-pro-max-mau-vang-titanium-256gb-512gb-1tb-trang-thien-long-mobile.jpg",
+  "name": "iPhone 13 ProMax",
+  "price": 27000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1679731974/jlad6jqdc69cjrh9zggq.jpg",
   "category_id": 1
-},{
+}, {
   "id": 2,
-  "name": "Galaxy Z-Flip 4",
-  "price": 2000000,
-  "image": "https://cdn-v2.didongviet.vn/files/products/2023/6/14/1/1689351170740_samsung_galaxy_z_flip4_didongviet_1.jpg",
+  "name": "Galaxy S23 Ultra",
+  "price": 27000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1658027062/dqgc5uq8hrz1xgwe445v.jpg",
   "category_id": 1
-},
-{
+}, {
   "id": 3,
-  "name": "Bphone",
-  "price": 2000000,
-  "image": "https://bphone.vn/WebB4/Bphone4Products/bphone-a85.png",
+  "name": "iPhone 13",
+  "price": 27000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1679731974/jlad6jqdc69cjrh9zggq.jpg",
   "category_id": 1
-},{
+}, {
   "id": 4,
-  "name": "Xiaomi",
-  "price": 2000000,
-  "image": "https://viostore.vn/wp-content/uploads/2024/01/5-6.png",
+  "name": "iPhone 15",
+  "price": 27000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1658027062/dqgc5uq8hrz1xgwe445v.jpg",
   "category_id": 1
-},{
+}, {
   "id": 5,
-  "name": "Iphone 15 Pro",
-  "price": 2000000,
-  "image": "https://cdn.phuckhangmobile.com/image/iphone-15-pro-mau-den-titanium-29698j.jpg",
+  "name": "Galaxy Z-Fold 5",
+  "price": 27000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1679731974/jlad6jqdc69cjrh9zggq.jpg",
   "category_id": 1
-},{
+}, {
   "id": 6,
-  "name": "iPad Gen 10 10.9 inch Wifi 64GB Chính Hãng",
-  "price": 2000000,
-  "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-10-9-inch-2022.png",
+  "name": "iPad Pro 2022",
+  "price": 35000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1679126974/vz4jnpuqydszbtrcbcnd.jpg",
   "category_id": 2
-},{
+}, {
   "id": 7,
-  "name": "iPad Air 5 10.9 inch 2022 Wifi 5G 64GB Chính Hãng",
-  "price": 2000000,
-  "image": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/i/p/ipad-air-5.png",
+  "name": "Galaxy Tab S9",
+  "price": 28000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1647248722/r8sjly3st7estapvj19u.jpg",
   "category_id": 2
-},
-  {
-  "id": 8,
-  "name": "Samsung Tablet",
-  "price": 2000000,
-  "image": "https://dienthoaigiakho.vn/_next/image?url=https%3A%2F%2Fcdn.dienthoaigiakho.vn%2Fphotos%2F1709544974538-Badge-chung-Final.png",
-  "category_id": 2
-},
-  {
+}, {
   "id": 9,
-  "name": "Lenovo ThinkPad X1 Carbon Gen 11 – Core i7-1370P / RAM 64GB / SSD 1TB / OLED",
-  "price": 67000000,
-  "image": "https://macstores.vn/wp-content/uploads/2023/04/thinkpad_x1_carbon_gen_11_1.png",
+  "name": "Mac Book Pro 14' 2021",
+  "price": 28000000,
+  "image": "https://res.cloudinary.com/dxxwcby8l/image/upload/v1670491542/pro14_q73lhp.webp",
   "category_id": 3
-}
-
-]
+}]
