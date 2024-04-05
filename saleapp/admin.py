@@ -15,9 +15,6 @@ class CategoryModelView(ModelView):
 
 
 class StatsView(BaseView):
-
-
-
-admin = Admin(app, name="E_Commerce", template_mode="bootstrap4")
-admin.add_view(ProductModelView(Product, db.session))
-admin.add_view(CategoryModelView(Category, db.session))
+    admin = Admin(app, name="E_Commerce", template_mode="bootstrap4")
+    admin.add_view(ProductModelView(Product, db.session))
+    admin.add_view(CategoryModelView(Category, db.session))

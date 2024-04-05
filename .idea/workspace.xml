@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20d47f4b-0d20-476c-8e82-903dfe37a73a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/saleapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saleapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saleapp/templates/admin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saleapp/templates/admin/stats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saleapp/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/saleapp-CNPM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/saleapp-CNPM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/dao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/data/products.json" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/data/products.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/layout/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/saleapp/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/templates/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saleapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/saleapp/admin.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2dRKyU3DqjKJg3t7v6N232mA9Eu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,14 +42,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.index.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/saleapp-CNPM"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/chinh/Data/saleapp-CNPM"
   }
 }]]></component>
   <component name="RunManager" selected="Python.index">
     <configuration name="dao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="saleapp-CNPM" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -79,6 +74,7 @@
     </configuration>
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="saleapp-CNPM" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -100,6 +96,7 @@
     </configuration>
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="saleapp-CNPM" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -126,6 +123,13 @@
         <item itemvalue="Python.dao" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
